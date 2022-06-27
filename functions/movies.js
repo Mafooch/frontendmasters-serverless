@@ -1,6 +1,6 @@
 const { URL } = require('url');
 const fetch = require('node-fetch');
-const { query } = require('./util/hasura');
+const { query } = require('./utils/hasura');
 
 exports.handler = async () => {
   const { movies } = await query({
