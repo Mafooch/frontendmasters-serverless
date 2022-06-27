@@ -25,15 +25,4 @@ exports.handler = async (event) => {
     statusCode: 200,
     body: JSON.stringify(result)
   }
-  
-  // mutation MyMutation {
-  //   insert_movies(objects: {id: "", poster: "", tagline: "", title: ""}) {
-  //     returning {
-  //       id
-  //       poster
-  //       tagline
-  //       title
-  //     }
-  //   }
-  // }
 }
